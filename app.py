@@ -4,6 +4,8 @@ from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 import cv2
 import mediapipe as mp
+from mediapipe.python.solutions import pose
+from mediapipe.python.solutions import drawing_utils
 import numpy as np
 import base64
 from PIL import Image
